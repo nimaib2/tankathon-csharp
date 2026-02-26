@@ -1,0 +1,16 @@
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/bin/Debug/net9.0/MarchMadness.Application.deps.json
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/bin/Debug/net9.0/MarchMadness.Application.dll
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/bin/Debug/net9.0/MarchMadness.Application.pdb
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/bin/Debug/net9.0/MarchMadness.Core.dll
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/bin/Debug/net9.0/MarchMadness.Core.pdb
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/Debug/net9.0/MarchMadness.Application.csproj.AssemblyReference.cache
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/Debug/net9.0/MarchMadness.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/Debug/net9.0/MarchMadness.Application.AssemblyInfoInputs.cache
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/Debug/net9.0/MarchMadness.Application.AssemblyInfo.cs
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/Debug/net9.0/MarchMadness.Application.csproj.CoreCompileInputs.cache
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/Debug/net9.0/MarchMadness.Application.sourcelink.json
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/Debug/net9.0/MarchMad.42FA7E57.Up2Date
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/Debug/net9.0/MarchMadness.Application.dll
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/Debug/net9.0/refint/MarchMadness.Application.dll
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/Debug/net9.0/MarchMadness.Application.pdb
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/Debug/net9.0/ref/MarchMadness.Application.dll

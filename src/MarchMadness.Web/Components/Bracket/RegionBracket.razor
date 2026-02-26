@@ -1,14 +1,19 @@
 @* One region: Round 1 games only (8 games). *@
 <div class="region-bracket">
-    <h3>@Region.Name</h3>
+    <h3>@RegionInfo.Name</h3>
     @{
-        var regionGames = Bracket.Games.Where(g => g.Round == 1 && g.RegionId == Region.Id).OrderBy(g => g.GameIndex).ToList();
+        var regionGames = BracketData.Games.Where(g => g.Round == 1 && g.RegionId == RegionInfo.Id).OrderBy(g => g.GameIndex).ToList();
     }
     @foreach (var game in regionGames)
     {
-        <GameSlot Game="@game" Teams="@Bracket.Teams" />
+        <GameSlot Game="@game" Teams="@BracketData.Teams" />
     }
 </div>
+
+@code {
+    [Parameter] public MarchMadness.Core.Models.Region RegionInfo { get; set; } = null!;
+    [Parameter] public MarchMadness.Core.Models.Bracket BracketData { get; set; } = null!;
+}
 
 <style>
     .region-bracket { min-width: 200px; }

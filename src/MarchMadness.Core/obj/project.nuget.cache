@@ -1,34 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZEjuRGAyQnc=",
-  "success": false,
+  "dgSpecHash": "GF+YuH/gsMM=",
+  "success": true,
   "projectFilePath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\n  The SSL connection could not be established, see inner exception.\n  Authentication failed, see inner exception.\n  bad certificate format",
-      "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj",
-      "filePath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj",
-      "targetGraphs": []
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\n  The SSL connection could not be established, see inner exception.\n  Authentication failed, see inner exception.\n  bad certificate format",
-      "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj",
-      "filePath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj",
-      "targetGraphs": []
-    },
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj",
-      "warningLevel": 1,
-      "filePath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

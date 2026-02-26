@@ -1,22 +1,26 @@
 @* Renders the full bracket by region (Round 1) and then shared Final Four / Championship. *@
 <div class="bracket-view">
     <div class="regions-row">
-        @foreach (var region in Bracket.Regions)
+        @foreach (var region in BracketData.Regions)
         {
-            <RegionBracket Region="@region" Bracket="@Bracket" />
+            <RegionBracket RegionInfo="@region" BracketData="@BracketData" />
         }
     </div>
-    @if (Bracket.Games.Any(g => g.Round >= 5))
+    @if (BracketData.Games.Any(g => g.Round >= 5))
     {
         <div class="final-four">
             <h3>Final Four &amp; Championship</h3>
-            @foreach (var game in Bracket.Games.Where(g => g.Round >= 5).OrderBy(g => g.Round).ThenBy(g => g.GameIndex))
+            @foreach (var game in BracketData.Games.Where(g => g.Round >= 5).OrderBy(g => g.Round).ThenBy(g => g.GameIndex))
             {
-                <GameSlot Game="@game" Teams="@Bracket.Teams" />
+                <GameSlot Game="@game" Teams="@BracketData.Teams" />
             }
         </div>
     }
 </div>
+
+@code {
+    [Parameter] public MarchMadness.Core.Models.Bracket BracketData { get; set; } = null!;
+}
 
 <style>
     .bracket-view { overflow-x: auto; }

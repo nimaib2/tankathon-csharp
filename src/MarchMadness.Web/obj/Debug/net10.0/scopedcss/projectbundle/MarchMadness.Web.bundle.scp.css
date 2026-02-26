@@ -1,0 +1,29 @@
+/* /Components/Layout/MainLayout.razor.rz.scp.css */
+.page[b-9bqvq4yt08] {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar[b-9bqvq4yt08] {
+    width: 220px;
+    background: #0d2137;
+    color: #e8e8e8;
+}
+
+.sidebar .top-row[b-9bqvq4yt08] {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.navbar-brand[b-9bqvq4yt08] {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content[b-9bqvq4yt08] {
+    flex: 1;
+    padding: 1.5rem;
+    background: #f5f5f5;
+}

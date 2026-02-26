@@ -67,8 +67,8 @@ public class StaticBracketSeedProvider : IBracketSeedProvider
         }
 
         // Rounds 2-6: build from previous round winners
-        int r1Count = 32, r2Count = 16, r3Count = 8, r4Count = 4, r5Count = 2, r6Count = 1;
-        int r2Start = r1Count, r3Start = r2Start + r2Count, r4Start = r3Start + r3Count, r5Start = r4Start + r4Count, r6Start = r5Start + r5Count;
+        int r1Count = 32, r2Count = 16, r3Count = 8, r4Count = 4, r5Count = 2;
+        int r2Start = r1Count, r3Start = r2Start + r2Count, r4Start = r3Start + r3Count, r5Start = r4Start + r4Count;
 
         for (int i = 0; i < r2Count; i++)
             games.Add(new BracketGame { Id = $"r2-{i}", Round = 2, RegionId = regionIds[i / 4], GameIndex = i, SourceGame1Id = games[i * 2].Id, SourceGame2Id = games[i * 2 + 1].Id });

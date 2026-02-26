@@ -10,7 +10,7 @@
         "projectUniqueName": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Api/MarchMadness.Api.csproj",
         "projectName": "MarchMadness.Api",
         "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Api/MarchMadness.Api.csproj",
-        "packagesPath": "/var/folders/7h/vxkkd1753m55qxgw_lnv9ybr0000gn/T/cursor-sandbox-cache/8c53028d7008922d6edf41ef0fbb5af9/nuget",
+        "packagesPath": "/Users/nimaibelur/.nuget/packages/",
         "outputPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
@@ -50,6 +50,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -93,7 +99,7 @@
         "projectUniqueName": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/MarchMadness.Application.csproj",
         "projectName": "MarchMadness.Application",
         "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/MarchMadness.Application.csproj",
-        "packagesPath": "/var/folders/7h/vxkkd1753m55qxgw_lnv9ybr0000gn/T/cursor-sandbox-cache/8c53028d7008922d6edf41ef0fbb5af9/nuget",
+        "packagesPath": "/Users/nimaibelur/.nuget/packages/",
         "outputPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
@@ -166,7 +172,7 @@
         "projectUniqueName": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj",
         "projectName": "MarchMadness.Core",
         "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj",
-        "packagesPath": "/var/folders/7h/vxkkd1753m55qxgw_lnv9ybr0000gn/T/cursor-sandbox-cache/8c53028d7008922d6edf41ef0fbb5af9/nuget",
+        "packagesPath": "/Users/nimaibelur/.nuget/packages/",
         "outputPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
@@ -235,7 +241,7 @@
         "projectUniqueName": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Infrastructure/MarchMadness.Infrastructure.csproj",
         "projectName": "MarchMadness.Infrastructure",
         "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Infrastructure/MarchMadness.Infrastructure.csproj",
-        "packagesPath": "/var/folders/7h/vxkkd1753m55qxgw_lnv9ybr0000gn/T/cursor-sandbox-cache/8c53028d7008922d6edf41ef0fbb5af9/nuget",
+        "packagesPath": "/Users/nimaibelur/.nuget/packages/",
         "outputPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [

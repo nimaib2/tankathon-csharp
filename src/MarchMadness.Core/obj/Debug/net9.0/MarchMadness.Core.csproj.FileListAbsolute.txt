@@ -1,0 +1,12 @@
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/bin/Debug/net9.0/MarchMadness.Core.deps.json
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/bin/Debug/net9.0/MarchMadness.Core.dll
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/bin/Debug/net9.0/MarchMadness.Core.pdb
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/obj/Debug/net9.0/MarchMadness.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/obj/Debug/net9.0/MarchMadness.Core.AssemblyInfoInputs.cache
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/obj/Debug/net9.0/MarchMadness.Core.AssemblyInfo.cs
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/obj/Debug/net9.0/MarchMadness.Core.csproj.CoreCompileInputs.cache
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/obj/Debug/net9.0/MarchMadness.Core.sourcelink.json
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/obj/Debug/net9.0/MarchMadness.Core.dll
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/obj/Debug/net9.0/refint/MarchMadness.Core.dll
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/obj/Debug/net9.0/MarchMadness.Core.pdb
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/obj/Debug/net9.0/ref/MarchMadness.Core.dll
