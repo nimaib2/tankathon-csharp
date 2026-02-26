@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tankathon.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fccc663ea6cd187c4b108e63394583151ee78e14")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4817c995f7486ede3145ca0dd178e2bc2ba45df2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tankathon.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tankathon.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

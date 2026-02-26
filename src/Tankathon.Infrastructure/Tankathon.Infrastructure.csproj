@@ -1,6 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="RestSharp" Version="112.1.0" />
     <ProjectReference Include="..\Tankathon.Core\Tankathon.Core.csproj" />
   </ItemGroup>
 

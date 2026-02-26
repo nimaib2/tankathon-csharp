@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "RestSharp/113.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Tankathon.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -41,6 +54,31 @@
     }
   },
   "libraries": {
+    "RestSharp/113.1.0": {
+      "sha512": "poNb3XPzF0Rxp+XW9e7U+TZOIjABkGEYd0cGuNIstcRZTU8ES6+7tpbZ55+0XpxwnxxU8nSAZ89p6WUKI+Cg+A==",
+      "type": "package",
+      "path": "restsharp/113.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/RestSharp.dll",
+        "lib/net10.0/RestSharp.xml",
+        "lib/net471/RestSharp.dll",
+        "lib/net471/RestSharp.xml",
+        "lib/net48/RestSharp.dll",
+        "lib/net48/RestSharp.xml",
+        "lib/net8.0/RestSharp.dll",
+        "lib/net8.0/RestSharp.xml",
+        "lib/net9.0/RestSharp.dll",
+        "lib/net9.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.113.1.0.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
     "Tankathon.Application/1.0.0": {
       "type": "project",
       "path": "../Tankathon.Application/Tankathon.Application.csproj",
@@ -59,6 +97,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "RestSharp >= 113.1.0",
       "Tankathon.Application >= 1.0.0",
       "Tankathon.Infrastructure >= 1.0.0"
     ]
@@ -112,6 +151,12 @@
     "frameworks": {
       "net10.0": {
         "targetAlias": "net10.0",
+        "dependencies": {
+          "RestSharp": {
+            "target": "Package",
+            "version": "[113.1.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

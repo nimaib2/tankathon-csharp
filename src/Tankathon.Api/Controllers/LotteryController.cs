@@ -17,13 +17,13 @@ public class LotteryController : ControllerBase
 
     /// <summary>
     /// POST /api/lottery/simulate
-    /// Body (optional): { "season": "2024-25", "standingsOverride": [...], "seed": 12345 }
+    /// Body (optional): { "season": "2025-26", "standingsOverride": [...], "seed": 12345 }
     /// Runs one lottery simulation and returns draft order 1-14.
     /// </summary>
     [HttpPost("simulate")]
     public async Task<IActionResult> Simulate([FromBody] SimulateRequest? request, CancellationToken cancellationToken = default)
     {
-        var season = request?.Season ?? "2024-25";
+        var season = request?.Season ?? "2025-26";
         var result = await _lotteryService.SimulateAsync(season, request?.StandingsOverride, request?.Seed, cancellationToken);
         return Ok(result);
     }
@@ -36,7 +36,7 @@ public class LotteryController : ControllerBase
     public async Task<IActionResult> SimulateMany([FromQuery] int runs = 10, [FromBody] SimulateRequest? request = null, CancellationToken cancellationToken = default)
     {
         if (runs < 1 || runs > 1000) return BadRequest("runs must be between 1 and 1000.");
-        var season = request?.Season ?? "2024-25";
+        var season = request?.Season ?? "2025-26";
         var results = await _lotteryService.SimulateManyAsync(season, runs, request?.StandingsOverride, cancellationToken);
         return Ok(results);
     }

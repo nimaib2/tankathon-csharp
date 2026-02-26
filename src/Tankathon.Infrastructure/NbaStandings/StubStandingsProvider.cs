@@ -12,20 +12,20 @@ public class StubStandingsProvider : INbaStandingsProvider
     {
         var standings = new List<TeamStanding>
         {
-            Create(1, "DET", "Detroit Pistons", 14, 68),
-            Create(2, "WAS", "Washington Wizards", 15, 67),
-            Create(3, "CHA", "Charlotte Hornets", 21, 61),
-            Create(4, "POR", "Portland Trail Blazers", 23, 59),
-            Create(5, "TOR", "Toronto Raptors", 25, 57),
-            Create(6, "UTA", "Utah Jazz", 31, 51),
-            Create(7, "BKN", "Brooklyn Nets", 32, 50),
-            Create(8, "ATL", "Atlanta Hawks", 36, 46),
-            Create(9, "HOU", "Houston Rockets", 41, 41),
-            Create(10, "CHI", "Chicago Bulls", 39, 43),
-            Create(11, "OKC", "Oklahoma City Thunder", 42, 40),
-            Create(12, "SAS", "San Antonio Spurs", 22, 60),
-            Create(13, "MEM", "Memphis Grizzlies", 27, 55),
-            Create(14, "NOP", "New Orleans Pelicans", 49, 33)
+            Create(1, "SAC", "Sacramento Kings", 13, 46),
+            Create(2, "IND", "Indiana Pacers", 15, 44),
+            Create(3, "BKN", "Brooklyn Nets", 15, 42),
+            Create(4, "WAS", "Washington Wizards", 16, 41),
+            Create(5, "ATL", "Atlanta Hawks", 25, 35),
+            Create(6, "UTA", "Utah Jazz", 18, 40),
+            Create(7, "DAL", "Dallas Mavericks", 21, 36),
+            Create(8, "MEM", "Memphis Grizzlies", 21, 35),
+            Create(9, "CHI", "Chicago Bulls", 24, 35),
+            Create(10, "MIL", "Milwaukee Bucks", 25, 31),
+            Create(11, "OKC", "Oklahoma City Thunder", 42, 20),
+            Create(12, "POR", "Portland Trail Blazers", 28, 31),
+            Create(13, "CHA", "Charlotte Hornets", 28, 31),
+            Create(14, "SAS", "San Antonio Spurs", 29, 31)
         };
         return Task.FromResult<IReadOnlyList<TeamStanding>>(standings);
     }
