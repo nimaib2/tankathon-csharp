@@ -1,0 +1,24 @@
+<div class="simulation-controls">
+    <button class="btn btn-primary" @onclick="HandleSimulate" disabled="@Simulated">Simulate full bracket</button>
+    @if (Simulated)
+    {
+        <button class="btn btn-secondary" @onclick="HandleReset">Reset</button>
+    }
+</div>
+
+@code {
+    [Parameter] public EventCallback OnSimulate { get; set; }
+    [Parameter] public EventCallback OnReset { get; set; }
+    [Parameter] public bool Simulated { get; set; }
+
+    private async Task HandleSimulate() => await OnSimulate.InvokeAsync();
+    private async Task HandleReset() => await OnReset.InvokeAsync();
+}
+
+<style>
+    .simulation-controls { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+    .simulation-controls .btn { padding: 0.5rem 1rem; border-radius: 6px; border: none; cursor: pointer; font-weight: 500; }
+    .simulation-controls .btn:disabled { opacity: 0.6; cursor: not-allowed; }
+    .btn-primary { background: #c41e3a; color: #fff; }
+    .btn-secondary { background: #0d2137; color: #fff; }
+</style>

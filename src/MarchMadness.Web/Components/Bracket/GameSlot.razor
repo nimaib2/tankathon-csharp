@@ -1,0 +1,26 @@
+@* One matchup line: team names (and seeds), optional score/winner. *@
+@{
+    var home = Game.HomeTeamId is {} hid ? Teams.FirstOrDefault(t => t.Id == hid) : null;
+    var away = Game.AwayTeamId is {} aid ? Teams.FirstOrDefault(t => t.Id == aid) : null;
+    var winnerId = Game.WinnerId;
+}
+<div class="game-slot @(winnerId != null ? "has-winner" : "")">
+    <div class="team @(winnerId == home?.Id ? "winner" : "")">
+        @if (home != null) { <span class="seed">@home.Seed</span> @home.ShortName } else { <span class="tbd">TBD</span> }
+        @if (Game.ScoreHome.HasValue) { <span class="score">@Game.ScoreHome</span> }
+    </div>
+    <div class="team @(winnerId == away?.Id ? "winner" : "")">
+        @if (away != null) { <span class="seed">@away.Seed</span> @away.ShortName } else { <span class="tbd">TBD</span> }
+        @if (Game.ScoreAway.HasValue) { <span class="score">@Game.ScoreAway</span> }
+    </div>
+</div>
+
+<style>
+    .game-slot { border: 1px solid #ddd; border-radius: 4px; margin-bottom: 4px; overflow: hidden; }
+    .game-slot .team { padding: 4px 8px; display: flex; align-items: center; gap: 8px; }
+    .game-slot .team + .team { border-top: 1px solid #eee; }
+    .game-slot .team.winner { background: #e8f5e9; font-weight: 600; }
+    .game-slot .seed { color: #666; font-size: 0.85rem; min-width: 1.5rem; }
+    .game-slot .score { margin-left: auto; font-weight: 600; }
+    .game-slot .tbd { color: #999; }
+</style>

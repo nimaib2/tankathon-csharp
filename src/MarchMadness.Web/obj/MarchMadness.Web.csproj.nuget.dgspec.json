@@ -1,0 +1,309 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Web/MarchMadness.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/MarchMadness.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/MarchMadness.Application.csproj",
+        "projectName": "MarchMadness.Application",
+        "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/MarchMadness.Application.csproj",
+        "packagesPath": "/var/folders/7h/vxkkd1753m55qxgw_lnv9ybr0000gn/T/cursor-sandbox-cache/8c53028d7008922d6edf41ef0fbb5af9/nuget",
+        "outputPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nimaibelur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj": {
+                "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj",
+        "projectName": "MarchMadness.Core",
+        "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj",
+        "packagesPath": "/var/folders/7h/vxkkd1753m55qxgw_lnv9ybr0000gn/T/cursor-sandbox-cache/8c53028d7008922d6edf41ef0fbb5af9/nuget",
+        "outputPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nimaibelur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Infrastructure/MarchMadness.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Infrastructure/MarchMadness.Infrastructure.csproj",
+        "projectName": "MarchMadness.Infrastructure",
+        "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Infrastructure/MarchMadness.Infrastructure.csproj",
+        "packagesPath": "/var/folders/7h/vxkkd1753m55qxgw_lnv9ybr0000gn/T/cursor-sandbox-cache/8c53028d7008922d6edf41ef0fbb5af9/nuget",
+        "outputPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nimaibelur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/MarchMadness.Application.csproj": {
+                "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/MarchMadness.Application.csproj"
+              },
+              "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj": {
+                "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Core/MarchMadness.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Web/MarchMadness.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Web/MarchMadness.Web.csproj",
+        "projectName": "MarchMadness.Web",
+        "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Web/MarchMadness.Web.csproj",
+        "packagesPath": "/var/folders/7h/vxkkd1753m55qxgw_lnv9ybr0000gn/T/cursor-sandbox-cache/8c53028d7008922d6edf41ef0fbb5af9/nuget",
+        "outputPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nimaibelur/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/MarchMadness.Application.csproj": {
+                "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Application/MarchMadness.Application.csproj"
+              },
+              "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Infrastructure/MarchMadness.Infrastructure.csproj": {
+                "projectPath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Infrastructure/MarchMadness.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[9.0.12, 9.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.12, 9.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

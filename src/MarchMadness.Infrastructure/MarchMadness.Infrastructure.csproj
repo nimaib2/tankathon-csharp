@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MarchMadness.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MarchMadness.Application\MarchMadness.Application.csproj" />
+    <ProjectReference Include="..\MarchMadness.Core\MarchMadness.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\seed-data-2025-26.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

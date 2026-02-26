@@ -1,0 +1,16 @@
+@* One region: Round 1 games only (8 games). *@
+<div class="region-bracket">
+    <h3>@Region.Name</h3>
+    @{
+        var regionGames = Bracket.Games.Where(g => g.Round == 1 && g.RegionId == Region.Id).OrderBy(g => g.GameIndex).ToList();
+    }
+    @foreach (var game in regionGames)
+    {
+        <GameSlot Game="@game" Teams="@Bracket.Teams" />
+    }
+</div>
+
+<style>
+    .region-bracket { min-width: 200px; }
+    .region-bracket h3 { margin-bottom: 0.75rem; font-size: 1rem; color: #0d2137; }
+</style>

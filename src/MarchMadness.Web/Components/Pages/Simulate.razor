@@ -1,0 +1,49 @@
+@page "/bracket/simulate"
+@rendermode InteractiveServer
+<PageTitle>Simulate - March Madness</PageTitle>
+
+@if (_bracket is null && !_simulated)
+{
+    <p>Loading bracket...</p>
+}
+else
+{
+    <h1>Simulate Tournament</h1>
+    <SimulationControls OnSimulate="RunSimulation" OnReset="Reset" Simulated="@_simulated" />
+    @if (_bracket != null)
+    {
+        <div class="mt-4">
+            <BracketView Bracket="_bracket" />
+        </div>
+    }
+}
+
+@code {
+    private MarchMadness.Core.Models.Bracket? _bracket;
+    private bool _simulated;
+
+    [Inject] private BracketService BracketService { get; set; } = null!;
+    [Inject] private BracketSimulationService SimulationService { get; set; } = null!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _bracket = await BracketService.GetBracketAsync("2025-26");
+    }
+
+    private async Task RunSimulation()
+    {
+        if (_bracket is null) return;
+        _bracket = await SimulationService.SimulateFullBracketAsync(_bracket);
+        _simulated = true;
+    }
+
+    private async Task Reset()
+    {
+        _bracket = await BracketService.GetBracketAsync("2025-26");
+        _simulated = false;
+    }
+}
+
+<style>
+    .mt-4 { margin-top: 1.5rem; }
+</style>

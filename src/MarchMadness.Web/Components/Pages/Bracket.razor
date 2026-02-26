@@ -1,0 +1,29 @@
+@page "/bracket"
+@rendermode InteractiveServer
+<PageTitle>Bracket - March Madness</PageTitle>
+
+@if (_bracket is null)
+{
+    <p>Loading bracket...</p>
+}
+else
+{
+    <h1>2025-26 Bracket</h1>
+    <p class="text-muted">@_bracket.Source</p>
+    <BracketView Bracket="_bracket" />
+}
+
+@code {
+    private MarchMadness.Core.Models.Bracket? _bracket;
+
+    [Inject] private BracketService BracketService { get; set; } = null!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _bracket = await BracketService.GetBracketAsync("2025-26");
+    }
+}
+
+<style>
+    .text-muted { color: #666; font-size: 0.9rem; }
+</style>
