@@ -1,0 +1,16 @@
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/bin/Debug/net10.0/Tankathon.Infrastructure.deps.json
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/bin/Debug/net10.0/Tankathon.Infrastructure.dll
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/bin/Debug/net10.0/Tankathon.Infrastructure.pdb
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/bin/Debug/net10.0/Tankathon.Core.dll
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/bin/Debug/net10.0/Tankathon.Core.pdb
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/obj/Debug/net10.0/Tankathon.Infrastructure.csproj.AssemblyReference.cache
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/obj/Debug/net10.0/Tankathon.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/obj/Debug/net10.0/Tankathon.Infrastructure.AssemblyInfoInputs.cache
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/obj/Debug/net10.0/Tankathon.Infrastructure.AssemblyInfo.cs
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/obj/Debug/net10.0/Tankathon.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/obj/Debug/net10.0/Tankathon.Infrastructure.sourcelink.json
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/obj/Debug/net10.0/Tankatho.5D147979.Up2Date
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/obj/Debug/net10.0/Tankathon.Infrastructure.dll
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/obj/Debug/net10.0/refint/Tankathon.Infrastructure.dll
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/obj/Debug/net10.0/Tankathon.Infrastructure.pdb
+/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/Tankathon.Infrastructure/obj/Debug/net10.0/ref/Tankathon.Infrastructure.dll

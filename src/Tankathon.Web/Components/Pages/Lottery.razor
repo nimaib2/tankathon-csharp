@@ -1,0 +1,117 @@
+@page "/lottery"
+@rendermode InteractiveServer
+@using Tankathon.Core.Models
+@using Tankathon.Web.Services
+@inject TankathonApiClient Api
+
+<PageTitle>Lottery Simulator</PageTitle>
+
+<h1>NBA Draft Lottery Simulator</h1>
+
+<p class="text-muted">Run a random draft lottery based on current standings. Season: <strong>@_season</strong></p>
+
+<div class="mb-3 d-flex gap-2 flex-wrap">
+    <button class="btn btn-primary" @onclick="RunOne" disabled="@_running">Run simulation</button>
+    <button class="btn btn-outline-primary" @onclick="RunMany" disabled="@_running">Run 10 simulations</button>
+</div>
+
+@if (_running)
+{
+    <p><em>Running...</em></p>
+}
+@if (_error is not null)
+{
+    <div class="alert alert-danger">@_error</div>
+}
+@if (_lastResult is not null)
+{
+    <h2 class="h5 mt-4">Draft order</h2>
+    <div class="table-responsive">
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th>Pick</th>
+                    <th>Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in _lastResult.Picks.OrderBy(x => x.Pick))
+                {
+                    <tr>
+                        <td>@p.Pick</td>
+                        <td>@p.TeamName <span class="text-muted">(@p.Abbreviation)</span></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+@if (_manyResults?.Count > 0)
+{
+    <h2 class="h5 mt-4">#1 pick count (from @_manyResults.Count runs)</h2>
+    <ul class="list-unstyled">
+        @foreach (var kv in _oneCounts.OrderByDescending(x => x.Value))
+        {
+            <li><strong>@kv.Key</strong>: @kv.Value</li>
+        }
+    </ul>
+}
+
+@code {
+    private string _season = "2024-25";
+    private bool _running;
+    private string? _error;
+    private DraftOrderResult? _lastResult;
+    private IReadOnlyList<DraftOrderResult>? _manyResults;
+    private Dictionary<string, int> _oneCounts = new();
+
+    private async Task RunOne()
+    {
+        _running = true;
+        _error = null;
+        _lastResult = null;
+        _manyResults = null;
+        try
+        {
+            _lastResult = await Api.SimulateLotteryAsync(_season);
+        }
+        catch (Exception ex)
+        {
+            _error = "Simulation failed. Is the API running? " + ex.Message;
+        }
+        finally
+        {
+            _running = false;
+        }
+    }
+
+    private async Task RunMany()
+    {
+        _running = true;
+        _error = null;
+        _lastResult = null;
+        _manyResults = null;
+        _oneCounts = new Dictionary<string, int>();
+        try
+        {
+            _manyResults = await Api.SimulateLotteryManyAsync(_season, runs: 10);
+            foreach (var result in _manyResults!)
+            {
+                var first = result.Picks.FirstOrDefault(p => p.Pick == 1);
+                if (first is not null)
+                {
+                    var name = first.TeamName;
+                    _oneCounts[name] = _oneCounts.GetValueOrDefault(name, 0) + 1;
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            _error = "Simulation failed. Is the API running? " + ex.Message;
+        }
+        finally
+        {
+            _running = false;
+        }
+    }
+}

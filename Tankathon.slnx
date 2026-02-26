@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Tankathon.Api/Tankathon.Api.csproj" />
+    <Project Path="src/Tankathon.Application/Tankathon.Application.csproj" />
+    <Project Path="src/Tankathon.Core/Tankathon.Core.csproj" />
+    <Project Path="src/Tankathon.Infrastructure/Tankathon.Infrastructure.csproj" />
+    <Project Path="src/Tankathon.Web/Tankathon.Web.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,6 @@
+@Tankathon.Api_HostAddress = http://localhost:5111
+
+GET {{Tankathon.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
