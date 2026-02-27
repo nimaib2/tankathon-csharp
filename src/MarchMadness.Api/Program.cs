@@ -5,6 +5,10 @@ using MarchMadness.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Use port 5050 to avoid conflict with Web app (default 5000)
+if (string.IsNullOrEmpty(builder.Configuration["ASPNETCORE_URLS"]))
+    builder.WebHost.UseUrls("http://127.0.0.1:5050");
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IBracketSeedProvider>(_ =>

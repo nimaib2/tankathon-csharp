@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "u0ew4kMP8M4=",
+  "dgSpecHash": "W+oGNHLjAuc=",
   "success": true,
   "projectFilePath": "/Users/nimaibelur/Documents/GitHub/tankathon-csharp/tankathon/tankathon-csharp/src/MarchMadness.Api/MarchMadness.Api.csproj",
   "expectedPackageFiles": [
@@ -9,10 +9,7 @@
     "/Users/nimaibelur/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "/Users/nimaibelur/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "/Users/nimaibelur/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
-    "/Users/nimaibelur/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
-    "/Users/nimaibelur/.nuget/packages/microsoft.netcore.app.ref/9.0.12/microsoft.netcore.app.ref.9.0.12.nupkg.sha512",
-    "/Users/nimaibelur/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.12/microsoft.aspnetcore.app.ref.9.0.12.nupkg.sha512",
-    "/Users/nimaibelur/.nuget/packages/microsoft.netcore.app.host.osx-arm64/9.0.12/microsoft.netcore.app.host.osx-arm64.9.0.12.nupkg.sha512"
+    "/Users/nimaibelur/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
   ],
   "logs": []
 }

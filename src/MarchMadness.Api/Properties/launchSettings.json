@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "MarchMadness.Api": {
+      "commandName": "Project",
+      "applicationUrl": "http://127.0.0.1:5050",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

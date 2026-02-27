@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarchMadness.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f03eb6b38c8a7431ebfa5b73ebda2ce7d346201e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f33933209009e279554ae4d4176087604f27aef4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarchMadness.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarchMadness.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
