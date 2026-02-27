@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "MarchMadness Web",
+      "runtimeExecutable": "dotnet",
+      "runtimeArgs": ["run", "--project", "src/MarchMadness.Web"],
+      "port": 5000,
+      "autoPort": true
+    },
+    {
+      "name": "MarchMadness API",
+      "runtimeExecutable": "dotnet",
+      "runtimeArgs": ["run", "--project", "src/MarchMadness.Api"],
+      "port": 5001,
+      "autoPort": true
+    }
+  ]
+}
