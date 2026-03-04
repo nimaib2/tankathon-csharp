@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0f1923;
+  --surface: #1a2736;
+  --surface-light: #243447;
+  --border: #2d4054;
+  --text: #e8edf2;
+  --text-muted: #8899aa;
+  --accent: #f97316;
+  --accent-hover: #fb923c;
+  --winner: #22c55e;
+  --winner-bg: rgba(34, 197, 94, 0.08);
+  --seed-bg: rgba(249, 115, 22, 0.12);
+  --radius: 8px;
+  --radius-sm: 6px;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+a:hover {
+  color: var(--accent-hover);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}

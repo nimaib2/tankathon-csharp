@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btnPrimary,
+.btnSecondary {
+  padding: 0.6rem 1.4rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: none;
+  transition: all 0.15s;
+}
+
+.btnPrimary {
+  background: var(--accent);
+  color: #fff;
+}
+.btnPrimary:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+.btnPrimary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btnSecondary {
+  background: var(--surface-light);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+.btnSecondary:hover:not(:disabled) {
+  background: var(--surface);
+  border-color: var(--text-muted);
+}
+
+.loading,
+.error {
+  padding: 3rem;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.error {
+  color: #ef4444;
+}
+
+.inlineError {
+  font-size: 0.85rem;
+  color: #ef4444;
+  margin-top: 0.25rem;
+}

@@ -9,6 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 if (string.IsNullOrEmpty(builder.Configuration["ASPNETCORE_URLS"]))
     builder.WebHost.UseUrls("http://127.0.0.1:5050");
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IBracketSeedProvider>(_ =>
@@ -28,6 +33,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors();
 app.UseHttpsRedirection();
 
 app.MapGet("/api/bracket", async (BracketService bracketService, string? season) =>

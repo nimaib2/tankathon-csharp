@@ -1,0 +1,74 @@
+.slot {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  min-width: 160px;
+  transition: border-color 0.15s;
+}
+
+.slot:hover {
+  border-color: var(--text-muted);
+}
+
+.played {
+  border-color: var(--border);
+}
+
+.divider {
+  height: 1px;
+  background: var(--border);
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.85rem;
+  transition: background 0.15s;
+}
+
+.winner {
+  background: var(--winner-bg);
+}
+
+.seed {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--seed-bg);
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.name {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.winner .name {
+  color: var(--winner);
+}
+
+.score {
+  margin-left: auto;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-muted);
+}
+
+.winner .score {
+  color: var(--winner);
+}
+
+.tbd {
+  color: var(--text-muted);
+  font-style: italic;
+  font-size: 0.8rem;
+}

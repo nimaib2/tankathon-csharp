@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarchMadness.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f33933209009e279554ae4d4176087604f27aef4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92e7acb8139df8378614b09ea36befd9aef50611")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarchMadness.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarchMadness.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

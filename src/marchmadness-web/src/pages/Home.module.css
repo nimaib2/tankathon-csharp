@@ -1,0 +1,63 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 6rem 1rem;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.year {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--accent);
+  margin-top: 0.25rem;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 1.15rem;
+  max-width: 400px;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.btnPrimary,
+.btnSecondary {
+  padding: 0.7rem 1.6rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.15s;
+}
+
+.btnPrimary {
+  background: var(--accent);
+  color: #fff !important;
+}
+.btnPrimary:hover {
+  background: var(--accent-hover);
+}
+
+.btnSecondary {
+  background: var(--surface-light);
+  color: var(--text) !important;
+  border: 1px solid var(--border);
+}
+.btnSecondary:hover {
+  background: var(--surface);
+  border-color: var(--text-muted);
+}
