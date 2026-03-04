@@ -27,6 +27,15 @@
   padding: 0.35rem 0.6rem;
   font-size: 0.85rem;
   transition: background 0.15s;
+  user-select: none;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  background: var(--surface-light);
 }
 
 .winner {

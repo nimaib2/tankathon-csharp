@@ -1,5 +1,10 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-bottom: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .title {
@@ -13,6 +18,28 @@
   margin-top: 0.25rem;
   font-size: 0.8rem;
   color: var(--text-muted);
+}
+
+.hint {
+  margin-top: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.btnReset {
+  padding: 0.5rem 1.2rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.85rem;
+  border: 1px solid var(--border);
+  background: var(--surface-light);
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.btnReset:hover {
+  background: var(--surface);
+  border-color: var(--text-muted);
 }
 
 .loading,

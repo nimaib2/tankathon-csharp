@@ -1,5 +1,5 @@
 .region {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .title {
@@ -8,34 +8,100 @@
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid var(--border);
 }
 
-.rounds {
+/* ── Bracket tree ── */
+
+.bracket {
   display: flex;
-  gap: 1rem;
-  align-items: flex-start;
   overflow-x: auto;
   padding-bottom: 0.5rem;
 }
 
-.round {
+/* Each round column: label on top, games below */
+
+.roundCol {
+  display: flex;
+  flex-direction: column;
   flex-shrink: 0;
-  min-width: 165px;
 }
 
 .roundLabel {
-  font-size: 0.7rem;
+  height: 24px;
+  font-size: 0.65rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-muted);
-  margin-bottom: 0.5rem;
+  text-align: center;
+  line-height: 24px;
 }
 
-.gamesColumn {
+.gamesCol {
   display: flex;
   flex-direction: column;
+  flex: 1;
+}
+
+.gameWrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  min-height: 52px;
+  padding: 4px 0;
+}
+
+/* ── Connector lines between games and next round ── */
+
+.lineIn,
+.lineOut {
+  width: 10px;
+  flex-shrink: 0;
+  border-top: 1px solid var(--border);
+}
+
+/* ── Vertical bracket connectors ── */
+
+.connectorCol {
+  display: flex;
+  flex-direction: column;
+  width: 28px;
+  flex-shrink: 0;
+}
+
+/* Spacer matching the label row height so connectors align with games */
+.connectorLabel {
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.connector {
+  flex: 1;
+  position: relative;
+}
+
+/* Left half: bracket shape ─┐ / ─┘ */
+.connector::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 0;
+  width: 50%;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+
+/* Right half: output line from midpoint → next round */
+.connector::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  border-top: 1px solid var(--border);
 }
